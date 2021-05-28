@@ -1,0 +1,123 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px black;
+}
+
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+
+.navbar {
+    position: fixed;
+    /* background: #94d0cc; */
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 0;
+}
+
+.navbar.sticky {
+    position: fixed;
+    background: #94d0cc;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 0;
+}
+
+.navbar.sticky .logo span {
+    color: #fff;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    filter: drop-shadow(0 0 0.75rem #007);
+
+}
+
+.navbar .menu li a:hover {
+    color: #94d0cc;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .logo span {
+    color: #94d0cc;
+}
+
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* home section styling */
+
+.home {
+    display: flex;
+    background: url("images/banner.jpg") no-repeat center;
+    height: 90vh;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.home .max-width {
+    margin: auto 0 auto 70px;
+}
+
+.home .homecontent .text1 {
+    font-size: 27px;
+    margin: -10px -20px;
+    color: #94d0cc;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.home .homecontent .text2 {
+    font-size: 65px;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+
+.home .homecontent .text3 {
+    margin: -10px 25px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #94d0cc;
+
+}
+
+.home .homecontent .text3 span {
+    font-weight: 600;
+    color: white;
+    filter: drop-shadow(0 0 0.75rem #777);
+
+}
